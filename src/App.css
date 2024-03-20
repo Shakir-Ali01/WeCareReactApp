@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.App {
+  text-align: center;
+}
+html{
+    font-family: 'Oswald', sans-serif !important;
+}
+body{
+  padding-bottom: 4%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Start Home Page Section Css */
+.pSize{
+  font-size: 12px;
+}
+.top-h{
+  /* font-weight: 700; */
+  font-size: 32px;
+
+  /* font-weight: ; */
+  font-family: 'Oswald', sans-serif;
+}
+.login-img{
+  height: 90px;
+}
+.coachsignup-img{
+  height: 32px;
+}
+.signupform-lable-text{
+  font-size:12px !important;
+}
+.coachsignup-page-btn{
+  border:0px !important;
+  width: 200px !important;
+  height: 30px !important;
+  line-height: 5px !important;
+  color: white !important;
+  font-size:12px !important;
+  border-radius:3px !important;
+}
+.schedule-form-btn{
+  border:0px !important;
+  width: 100% !important;
+  height: 30px !important;
+  line-height: 5px !important;
+  color: white !important;
+  font-size:12px !important;
+  border-radius:3px !important;
+}
+.coachlogin-page-input-box{
+  border:0px !important;
+  height: 30px !important;
+  /* line-height: 5px !important; */
+
+  font-size:12px !important;
+  border-radius:3px !important;
+}
+.usersignup-page-input-box{
+  border:0px !important;
+  height: 23px !important;
+  /* line-height: 5px !important; */
+
+  font-size:12px !important;
+  border-radius:3px !important;
+}
+.coachlogin-page-btn{
+  /* border:none !important;
+  height: 30px !important;
+  line-height: 5px !important;
+  color: white !important;
+  font-size:12px !important;
+  border-radius:3px !important; */
+  border:0px !important;
+  width: 226px !important;
+  height: 30px !important;
+  line-height: 5px !important;
+  color: white !important;
+  font-size:12px !important;
+  border-radius:3px !important;
+}
+.fp{
+  margin-bottom: 2px !important;
+  font-size: 12px;
+}
+.footer{
+   position: fixed;
+   /* left: 0;
+   bottom: 0; */
+   width: 100%;
+   /* background-color: red; */
+   /* flex: 0 0 50px;/*or just height:50px;*/
+  /* margin-top: auto; */
+   color: white;
+   bottom: 0;
+   text-align: center;
+   margin-top:3%;
+}
+.footer1{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+   margin-top:12px;
+}
+.footer2 {
+   /* position: fixed; */
+   /* left: 0;
+   bottom: 0; */
+   width: 100%;
+   /* background-color: red; */
+   color: white;
+   text-align: center;
+}
+.login-btn{
+  border:0px !important;
+  width: 190px !important;
+  height: 30px !important;
+  line-height: 5px !important;
+  color: white !important;
+  background: #17a2b8 !important;
+  font-size:12px !important;
+  border-radius:3px !important;
+}
+
+
+/* End Home Page Section Css */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
